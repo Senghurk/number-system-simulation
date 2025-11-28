@@ -54,7 +54,7 @@ public class NumberSystemSimulation {
         scanner.close();
     }
     
-    // Decimal to Binary
+    
     public static void decimalToBinary(Scanner scanner) {
         System.out.print("\nEnter a decimal number: ");
         int decimal = scanner.nextInt();
@@ -76,7 +76,7 @@ public class NumberSystemSimulation {
         System.out.println("\nDecimal " + originalNumber + " => Binary " + binary);
     }
     
-    // Binary to Decimal
+    
     public static void binaryToDecimal(Scanner scanner) {
         System.out.print("\nEnter a binary number: ");
         String binary = scanner.next();
@@ -97,7 +97,7 @@ public class NumberSystemSimulation {
         System.out.println("\nBinary " + binary + " => Decimal " + decimal);
     }
     
-    // Decimal to Hexadecimal
+    
     public static void decimalToHexadecimal(Scanner scanner) {
         System.out.print("\nEnter a decimal number: ");
         int decimal = scanner.nextInt();
@@ -122,7 +122,7 @@ public class NumberSystemSimulation {
         System.out.println("\nDecimal " + originalNumber + " => Hexadecimal " + hexadecimal);
     }
     
-    // Hexadecimal to Decimal
+    
     public static void hexadecimalToDecimal(Scanner scanner) {
         System.out.print("\nEnter a hexadecimal number: ");
         String hex = scanner.next().toUpperCase();  
@@ -147,7 +147,7 @@ public class NumberSystemSimulation {
         System.out.println("\nHexadecimal " + hex + " => Decimal " + decimal);
     }
     
-    // Binary to Hexadecimal
+    
     public static void binaryToHexadecimal(Scanner scanner) {
         System.out.print("\nEnter a binary number: ");
         String binary = scanner.next();
@@ -183,7 +183,7 @@ public class NumberSystemSimulation {
         System.out.println("(Intermediate: Decimal => " + decimal + ")");
     }
     
-    // Hexadecimal to Binary
+    
     public static void hexadecimalToBinary(Scanner scanner) {
         System.out.print("\nEnter a hexadecimal number: ");
         String hex = scanner.next().toUpperCase();
